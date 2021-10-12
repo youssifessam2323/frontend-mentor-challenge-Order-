@@ -1,3 +1,4 @@
+height: 95vh;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
 *{
@@ -9,9 +10,8 @@
 
 html, body{ 
     font-family: 'Poppins', sans-serif;
-    background-color: #E2E5DE;
-    height: 100%;
-    font-size: 16px;
+    background:url(/images/pattern-background-desktop.svg) no-repeat;
+    font-size: 13px;
 }
 
 
@@ -26,7 +26,6 @@ main{
 .card { 
     background-color: white;
     width: 35%;
-    height: 95vh;
     position: relative;
     border-radius: 32px;
     display: flex;
@@ -34,6 +33,7 @@ main{
     align-items: center;
     text-align: center;
     overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.2);
 }
 
 
@@ -83,7 +83,7 @@ main{
     border: none;
     cursor: pointer;
     margin-left: .3rem;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .2);
     margin-bottom: 12px;
 
 }
